@@ -10,21 +10,21 @@ int main()
 
     if(std::cin >> currBook)
     {
-        int flag = 1;
+        Sales_item flag = currBook;
 
         while(std::cin >> tempBook)
         {
             if(currBook.isbn() == tempBook.isbn())
             {
-                flag += 1;
+                flag += tempBook;
             }
             
             else
             {
                 std::cout << "count for ISBN: " << currBook.isbn() << '\n' << flag << std::endl;
-                flag = 0;
+                flag = tempBook;
                 currBook = tempBook;
-                flag += 1;
+                flag += tempBook;
             }
         }
         std::cout << "count for ISBN: " << currBook.isbn() << '\n' << flag << std::endl;
