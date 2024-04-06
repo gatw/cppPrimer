@@ -1,7 +1,7 @@
 # cppPrimer
 tutorials form c++ primer book (5th editon)
 
-## cotributor
+## contributor
 Thushadh Wijesekere
 
 ## to run the .cpp files:
