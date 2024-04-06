@@ -7,9 +7,9 @@ Thushadh Wijesekere
 ## to run the .cpp files:
 1. run the command 
 ```sh
-console $ g++ -o fileName fileName.cpp
+$ g++ -o fileName fileName.cpp
 ```
 2. run the excutable ``filename`` by running the command 
 ```sh
-console $ ./fileName
+$ ./fileName
 ```
